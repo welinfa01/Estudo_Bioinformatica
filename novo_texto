@@ -3,4 +3,3 @@ with open('Escherichia_coli.txt', 'r') as arquivo: #o arquivo esta na pasta
     conteudo = arquivo.read()
 
 novo_texto = (re.sub(r"\d+|\s+", "", conteudo)).upper()
-
